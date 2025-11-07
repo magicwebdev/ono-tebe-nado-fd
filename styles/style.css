@@ -153,7 +153,8 @@
 
 .lots__list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
   margin-bottom: 30px;
   list-style: none;
 }
